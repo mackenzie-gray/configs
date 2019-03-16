@@ -1,16 +1,19 @@
-#!/bin/bash
+main () {
+    cd ~
 
-cd ~
+    #
+    git clone git@github.com:mackenzie-gray/configs.git .configs
 
-#
-git clone git@github.com:mackenzie-gray/configs.git .configs
+    # Make directories
+    mkdir code
 
-# Make directories
-mkdir code
+    # Install ZSH
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# Install ZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    # Install Brew
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+}
 
-# Install Brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+main
+
 
