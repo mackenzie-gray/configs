@@ -102,7 +102,7 @@
     "ASCII Anti Aliased" : true,
     "Non Ascii Font" : "Monaco 12",
     "Vertical Spacing" : 1,
-    "Use Bold Font" : true,
+    "Use Bold Font" : false,
     "Option Key Sends" : 0,
     "Selected Text Color" : {
       "Green Component" : 0.63529413938522339,
