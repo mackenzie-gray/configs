@@ -1,0 +1,6 @@
+[submodule "spaceship-prompt"]
+	path = spaceship-prompt
+	url = https://github.com/denysdovhan/spaceship-prompt
+[submodule "themes/one-dark-iterm"]
+	path = themes/one-dark-iterm
+	url = https://github.com/anunez/one-dark-iterm
